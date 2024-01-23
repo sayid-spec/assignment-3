@@ -23,6 +23,7 @@
               "primary-clr": "#FF4240",
               "dark-clr": "#131318",
               "primary-clr": "#FF4240",
+              "ash-clr": "#13131899",
             },
           },
         },
@@ -171,27 +172,271 @@
       <!-- banner section  -->
       <section>
         <div
-          class="carousel w-full md:min-h-[550px] md:px-20 md:mt-[58px] md:mb-28 px-2"
+          class="flex flex-col gap-4 w-full md:min-h-[550px] md:px-20 md:mt-[58px] md:mb-28 px-2 relative container mx-auto"
         >
-          <div id="slide1" class="carousel-item relative w-full">
-            <img
-              src="Images/banner.png"
-              class="brightness-90 w-full md:rounded-2xl rounded-lg"
-            />
-            <div
-              class="absolute flex justify-start gap-5 md:left-8 md:bottom-8 left-4 bottom-4"
+          <div class="carousel w-full">
+            <!-- slide 1 -->
+            <div id="slide1" class="carousel-item relative w-full">
+              <img
+                src="Images/banner.png"
+                class="brightness-90 w-full md:rounded-2xl rounded-lg"
+              />
+              <div
+                class="absolute flex justify-start gap-5 md:left-8 md:bottom-8 left-4 bottom-4"
+              >
+                <a
+                  href="#slide2"
+                  class="w-6 h-6 md:h-12 md:w-12 bg-black text-white flex justify-center items-center rounded-[50%] md:text-xl"
+                  >❮</a
+                >
+                <a
+                  href="#slide2"
+                  class="w-6 h-6 md:h-12 md:w-12 bg-black text-white flex justify-center items-center rounded-[50%] md:text-xl"
+                  g
+                  >❯</a
+                >
+              </div>
+            </div>
+            <!-- slide 2 -->
+            <div id="slide2" class="carousel-item relative w-full">
+              <img
+                src="Images/program3.png"
+                class="brightness-90 w-full md:rounded-2xl rounded-lg"
+              />
+              <div
+                class="absolute flex justify-start gap-5 md:left-8 md:bottom-8 left-4 bottom-4"
+              >
+                <a
+                  href="#slide1"
+                  class="w-6 h-6 md:h-12 md:w-12 bg-black text-white flex justify-center items-center rounded-[50%] md:text-xl"
+                  >❮</a
+                >
+                <a
+                  href="#slide1"
+                  class="w-6 h-6 md:h-12 md:w-12 bg-black text-white flex justify-center items-center rounded-[50%] md:text-xl"
+                  g
+                  >❯</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="md:absolute rounded-xl bg-dark-clr md:p-8 p-4 space-y-4 text-left text-white md:right-28 md:bottom-8 -bottom-10"
+          >
+            <h3 class="font-extrabold md:text-2xl text-lg">
+              Meet all the heroes from the field
+            </h3>
+            <p
+              class="md:w-[502px] w-[250px] opacity-60 md:text-lg text-base font-medium"
             >
-              <a
-                href="#slide4"
-                class="w-6 h-6 md:h-12 md:w-12 bg-black text-white flex justify-center items-center rounded-[50%] md:text-xl"
-                >❮</a
+              They are the legends and role model of future legend. they are the
+              breath of internatiol hockey today
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- club section  -->
+
+      <section class="text-dark-clr mt-10">
+        <div class="flex flex-col gap-12 md:px-20 px-2">
+          <div
+            class="md:py-8 border-y-dark-clr border-x-0 border-opacity-20 border-2 border-dashed text-center space-y-6"
+          >
+            <h3 class="md:text-4xl font-extrabold">
+              Professional Hockeys Club
+            </h3>
+            <p class="md:max-w-[607px] mx-auto text-ash-clr font-medium">
+              In Professional Hockeys Club ,you'll get immeasurable benefit by
+              being a member of this club you'll get the chance to
+            </p>
+          </div>
+          <!-- progress bar -->
+          <div>
+            <div class="flex flex-col md:flex-row justify-evenly gap-8 md:px-9">
+              <!-- 1 -->
+              <div class="text-center">
+                <div
+                  class="radial-progress text-[#FF4240] mb-6"
+                  style="--value: 82; --size: 8rem; rotate: 135deg"
+                  role="progressbar"
+                >
+                  <span
+                    class="text-dark-clr font-extrabold text-3xl"
+                    style="rotate: -135deg"
+                    >87%</span
+                  >
+                </div>
+                <h3 class="text-xl font-bold mb-4 text-dark-clr">
+                  Prayer Facility
+                </h3>
+                <p class="text-ash-clr max-w-[250px] md:max-w-none mx-auto">
+                  Amet consectetur. Condimentum dignissim adipiscing .
+                </p>
+              </div>
+              <!-- 2 -->
+              <div class="text-center">
+                <div
+                  class="radial-progress text-[#49D293] mb-6"
+                  style="--value: 90; --size: 8rem; rotate: 135deg"
+                  role="progressbar"
+                >
+                  <span
+                    class="text-dark-clr font-extrabold text-3xl"
+                    style="rotate: -135deg"
+                    >95%</span
+                  >
+                </div>
+                <h3 class="text-xl font-bold mb-4 text-dark-clr">
+                  Prayer Facility
+                </h3>
+                <p class="text-ash-clr max-w-[250px] md:max-w-none mx-auto">
+                  Amet consectetur. Condimentum dignissim adipiscing .
+                </p>
+              </div>
+              <!-- 3 -->
+
+              <div class="text-center">
+                <div
+                  class="radial-progress text-[#FFB546] mb-6"
+                  style="--value: 85; --size: 8rem; rotate: 135deg"
+                  role="progressbar"
+                >
+                  <span
+                    class="text-dark-clr font-extrabold text-3xl"
+                    style="rotate: -135deg"
+                    >90%</span
+                  >
+                </div>
+                <h3 class="text-xl font-bold mb-4 text-dark-clr">
+                  Prayer Facility
+                </h3>
+                <p class="text-ash-clr max-w-[250px] md:max-w-none mx-auto">
+                  Amet consectetur. Condimentum dignissim adipiscing .
+                </p>
+              </div>
+              <!-- 4 -->
+              <div class="text-center">
+                <div
+                  class="radial-progress text-[#4C8DF1] mb-6"
+                  style="--value: 75; --size: 8rem; rotate: 135deg"
+                  role="progressbar"
+                >
+                  <span
+                    class="text-dark-clr font-extrabold text-3xl"
+                    style="rotate: -135deg"
+                    >80%</span
+                  >
+                </div>
+                <h3 class="text-xl font-bold mb-4 text-dark-clr">
+                  Prayer Facility
+                </h3>
+                <p class="text-ash-clr max-w-[250px] md:max-w-none mx-auto">
+                  Amet consectetur. Condimentum dignissim adipiscing .
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- program section  -->
+      <section class="text-dark-clr md:mt-24 mt-10 mb-10">
+        <div class="flex flex-col gap-12">
+          <div
+            class="py-8 border-y-dark-clr border-x-0 border-opacity-20 border-2 border-dashed text-center md:space-y-6 space-y-4"
+          >
+            <h3 class="md:text-4xl text-2xl font-extrabold">
+              Program Sections
+            </h3>
+            <p class="md:max-w-[607px] mx-auto text-ash-clr font-medium">
+              We've various program which is organized through out the year.Here
+              is some of them
+            </p>
+          </div>
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 md:grid-rows-[338ppx_450px] gap-6 grid-rows-3 mx-auto"
+          >
+            <!-- 1 -->
+            <div class="relative flex">
+              <div class="w-full">
+                <img
+                  src="Images/program1.png"
+                  class="brightness-[60%] object-center object-cover md:w-full h-[240px] md:h-auto rounded-md"
+                  alt=""
+                />
+              </div>
+              <div
+                class="md:px-10 px-3 text-white absolute md:py-5 py-3 md:bottom-40 top-4 left-0"
               >
-              <a
-                href="#slide2"
-                class="w-6 h-6 md:h-12 md:w-12 bg-black text-white flex justify-center items-center rounded-[50%] md:text-xl"
-                g
-                >❯</a
+                <h3 class="md:text-3xl text-xl font-extrabold">
+                  Junior Program
+                </h3>
+                <p class="font-medium mt-4 text-sm mb-6 md:max-w-[495px]">
+                  Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                  elit enim sagittis turpis in magna. Id et sed euismod natoque
+                  amet nunc morbi nulla. Tortor congue sed et in.
+                </p>
+                <button
+                  class="btn md:px-6 md:py-3 h-auto bg-primary-clr text-white border-0 hover:bg-red-600 border-primary-clr md:text-xl text-base font-bold"
+                >
+                  Register Now!
+                </button>
+              </div>
+            </div>
+            <!-- 2 -->
+            <div class="relative flex">
+              <div class="w-full">
+                <img
+                  src="Images/program2.png"
+                  class="brightness-[60%] object-center object-cover md:w-full h-[240px] md:h-auto rounded-md"
+                  alt=""
+                />
+              </div>
+              <div
+                class="md:px-10 px-3 text-white absolute md:py-5 py-3 md:bottom-40 top-4 left-0"
               >
+                <h3 class="md:text-3xl text-xl font-extrabold">
+                  Junior Program
+                </h3>
+                <p class="font-medium mt-4 text-sm mb-6 md:max-w-[495px]">
+                  Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                  elit enim sagittis turpis in magna. Id et sed euismod natoque
+                  amet nunc morbi nulla. Tortor congue sed et in.
+                </p>
+                <button
+                  class="btn md:px-6 md:py-3 h-auto bg-primary-clr text-white border-0 hover:bg-red-600 border-primary-clr md:text-xl text-base font-bold"
+                >
+                  Register Now!
+                </button>
+              </div>
+            </div>
+            <!-- 3 -->
+            <div class="relative flex md:col-span-2 md:row-span-2">
+              <div class="w-full">
+                <img
+                  src="Images/program3.png"
+                  class="brightness-[60%] object-center object-cover md:w-full h-[240px] md:h-auto rounded-md"
+                  alt=""
+                />
+              </div>
+              <div
+                class="md:px-10 px-3 text-white absolute md:py-5 py-3 md:bottom-40 top-2 left-0"
+              >
+                <h3 class="md:text-3xl text-xl font-extrabold">
+                  Junior Program
+                </h3>
+                <p class="font-medium mt-4 text-sm mb-6 md:max-w-[495px]">
+                  Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                  elit enim sagittis turpis in magna. Id et sed euismod natoque
+                  amet nunc morbi nulla. Tortor congue sed et in.
+                </p>
+                <button
+                  class="btn md:px-6 md:py-3 h-auto bg-primary-clr text-white border-0 hover:bg-red-600 border-primary-clr md:text-xl text-base font-bold"
+                >
+                  Register Now!
+                </button>
+              </div>
             </div>
           </div>
         </div>
